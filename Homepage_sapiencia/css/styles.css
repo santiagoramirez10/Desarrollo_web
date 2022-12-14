@@ -1,0 +1,250 @@
+/*general*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "Rubik";
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    margin: 0% 20%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: #222222;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu img {
+    width: 100px;
+}
+
+.nav-menu ul {
+    text-align: center;
+}
+
+.nav-menu li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.nav-menu li a {
+    color: #000000;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline 2px #663398;
+}
+
+.slider img {
+    width: 100%;
+    display: block;
+}
+
+.intro p {
+    font-size: 16px;
+    color: #777777;
+    line-height: 25px;
+}
+
+.intro a {
+    color: #000000;
+}
+
+.intro a:link {
+    color: #2E2E2E;
+}
+
+.pregrados-posgrados-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formacion {
+    width: 46%;
+    margin: 2% auto;
+}
+
+.formacion img {
+    width: 100%;
+}
+
+.formaciones {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formaciones img {
+    width: 33%;
+}
+
+.niños-niñas-adolescentes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.niños-niñas-adolescentes img {
+    width: 100%;
+    margin: 1px;
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servicios img {
+    width: 32%;
+}
+
+@media (max-width: 750px) {
+    section {
+        margin: 0 5%;
+    }
+
+    .formacion {
+        width: 100%;
+    }
+
+    .formacion img {
+        width: 80%;
+    }
+
+    .formaciones {
+        display: block;
+    }
+
+    .formaciones img {
+        width: 50%;
+    }
+
+    .servicios img {
+        width: 100%;
+    }
+}
+
+.user {
+    position: fixed;
+    top: 250px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: #4054B2;
+}
+
+.user i {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.sitios {
+    position: fixed;
+    top: 175px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.sitios i {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.google {
+
+    background-color: #4385F4;
+}
+
+.facebook {
+    background-color: #3C5A98;
+}
+
+.twitter {
+    background-color: #1EA1F2;
+}
+
+.impresora {
+    background-color: #738A8D;
+}
+
+.compartir {
+    background-color: #FF6651;
+}
+
+.google:hover,
+.facebook:hover,
+.twitter:hover,
+.impresora:hover,
+.compartir:hover {
+    width: 60px;
+    padding: 0px 10px;
+    transition: 0.5s;
+}
+
+
+
+.social-media {
+    position: fixed;
+    bottom: 175px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.social-media i {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.social-media li:nth-child(1) {
+    background-color: #4385F4;
+}
+
+.social-media li:nth-child(2) {
+    background-color: #3C5A98;
+}
+
+.social-media li:nth-child(3) {
+    background-color: #1EA1F2;
+}
+
+.social-media li:nth-child(4) {
+    background-color: #738A8D;
+}
+
+.social-media li:nth-child(5) {
+    background-color: #FF6651;
+}
+
+.social-media li:hover {
+    width: 60px;
+    padding: 0px 10px;
+    transition: 0.5s;
+}
